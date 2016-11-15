@@ -25,10 +25,6 @@ It makes the process more transparent and easier to monitor and debug.
 - The master process can delete older lock files to free up the problems for other workers.  This is useful when a worker may exit abnormally without freeing up the lock file.  It is also useful in clusters using slow and fast hardware alongside each other.
 - Workers automatically exit after a certain amount of idle time.
 
-## Requirements
-
-python-gflags
-
 ## Usage
 
 Replace the body of `master_create_input_files()` to create input files that are
