@@ -27,11 +27,9 @@ It makes the process more transparent and easier to monitor and debug.
 
 ## Usage
 
-Replace the body of `master_create_input_files()` to create input files that are
-appropriate for your application.
+Modify the body of `master()` to create input files that are appropriate for your application.
 
-Replace the body of `worker_process_file_real()` with code to process your input
-file and create the appropriate output.
+Modify the body of `worker_process_file()` to process your input file and create the appropriate output.
 
 ## Usage on Condor
 
